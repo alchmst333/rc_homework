@@ -1,9 +1,5 @@
-provider "kubernetes" {
-  config_path = "~/.kube/config"
-}
-
-resource "kubernetes_namespace" "rc_homework" {
+resource "kubernetes_namespace" "homework" {
   metadata {
-    name = "rc-homework"
+    name = var.namespace
   }
 }
