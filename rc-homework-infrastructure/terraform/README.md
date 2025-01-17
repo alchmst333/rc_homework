@@ -90,6 +90,14 @@ minikube status
 cat ~/.kube/config
 ````
 
+### Helm Package
+
+Navigate to the Helm chart directory and run the following command to package the configurations into a deployable Helm chart.
+
+````bash
+helm package .
+````
+
 ### Terraform
 
 Initialize terraform configuration:

@@ -80,3 +80,22 @@ The initial project repository provided contained various bugs and configuration
 
 - Moved the Kubernetes provider configuration from `namespace.tf` to a dedicated `providers.tf` file for improved organization and clarity, ensuring provider settings are centralized.
 - Namespace name did not match service.yaml configurations. Changed namespace name and resource name from `rc-homework` to `homework`.
+
+## Validations
+
+### Terraform
+
+![TF Plan](images/tf_plan.png)
+![TF Apply](images/tf_apply_success.png)
+
+### CLI
+
+![Kubectl Commands](images/kubectl_validations.png)
+![Kubectl Port Forwarding](images/kubectl_port_forwarding.png)
+![Curl Nginx](images/curl_nginx.png)
+
+### Browser
+
+![Nginx Browser Validation](images/nginx_browser_validation.png)
+
+
